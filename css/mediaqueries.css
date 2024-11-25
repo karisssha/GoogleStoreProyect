@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    .navbar .menubar {
+        display: block;
+        grid-column: 11 / 12;
+        font-size: 2em;
+        cursor: pointer
+    }
+
+    .navbar .menu{
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .watch{
+        display: none;
+    }
+
+    .mobile-reloj{  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mobile-prod{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .mobile-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
